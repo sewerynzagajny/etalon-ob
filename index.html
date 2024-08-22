@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Firma Elaton-OB świadczy usługi takie jak remonty, wykończenia wnętrz, malowanie, szpachlowanie, tapetowanie, wykończenie łazienek, budowanie domów od podstaw, montaż okien i drzwi, ogrodnictwo, zagospodarowanie terenu, rozbiórka i burzenie obiektów budowlanych, wykonywanie instalacji elektrycznych, wykonywanie instalacji wodno-kanalizacyjnych, wykonywanie instalacji cieplnych, wykonywanie instalacji gazowych, Wykonywanie instalacji klimatyzacyjnych i inne. Zakres usług obejmuję Szczecin i okolice"
+    />
+    <meta property="og:imge" content="https://etalon-ob.pl/img/hero.jpg" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/querias.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/cookies.js"></script>
+
+    <!-- Galeria zdjeć w pełnej rozdzielczości data-gallery
+Przykład
+<a data-gallery href="/img/realizacje/1.jpeg">
+                <img
+                  src="img/realizacje/1.jpeg"
+                  border="0"
+                  alt="photo of realization"
+                /> -->
+    <title>Etalon-OB &mdash; Budowa, remonty, wykończenia</title>
+  </head>
+  <body>
+    <div class="glowna" id="glowna"></div>
+    <header class="header">
+      <div class="flex-logo-nav">
+        <a class="logo-link-nav" href="#glowna">
+          <img
+            class="logo-nav-img"
+            alt="OB Etalon logo"
+            src="img/etalon-logo.png"
+          />
+          <span class="logo-text-nav">ETALON</span>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#o_nas" class="main-nav-link">O nas</a></li>
+
+          <li><a href="#uslugi" class="main-nav-link">Usługi</a></li>
+          <li><a href="#jak" class="main-nav-link">Jak działamy</a></li>
+
+          <li><a href="#realizacje" class="main-nav-link">Realizacje</a></li>
+          <li><a href="#kontakt" class="main-nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-tex-box">
+            <div class="flex-hero-text-box">
+              <img
+                class="logo-img"
+                alt="OB Etalon logo"
+                src="img/etalon-logo.png"
+              />
+              <span class="logo-text">ETALON</span>
+            </div>
+            <span class="logo-name">Oleksander Bodnarchuk</span>
+            <p class="hero-discription">
+              Szybko, profesionalnie, konkurencyjnie!
+            </p>
+            <div class="btn-container">
+              <a href="#kontakt" class="btn btn--full margin-right-sm"
+                >Skontaktuj się</a
+              >
+              <a href="#uslugi" class="btn btn--full">Nasze usługi</a>
+            </div>
+          </div>
+          <div class="hero-img-box animation-img hidden">
+            <img
+              class="hero-img img"
+              alt="Zdjęcia narzędzi budowlanych i projektów budowlanych"
+              src="img/hero.jpg"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-about-us" id="o_nas">
+        <div class="container grid grid--2-cols center">
+          <div class="about-us-img-box animation-img hidden">
+            <img
+              class="about-us-img img"
+              alt="Zdjęcie pracującej koparki na otwartym terenie"
+              src="img/o-nas.jpg"
+            />
+          </div>
+          <div class="about-us-text-box">
+            <h2 class="heading-secondary">O nas</h2>
+            <p class="about-us-text">
+              Jesteśmy na rynku od 2018 roku. Mimo krótkiego istnienia posiadamy
+              doświadczenie z wieloletnim stażem w swojej dziedzinie. Cechuje
+              nas profesjonalizm, dokładność oraz indywidualne podejście do
+              klienta. Projekty wykonujemy przy zachowaniu jakości zgodnie ze
+              sztuką budowlaną.
+            </p>
+            <p class="about-us-text">
+              Swoje umiejętności opieramy na sprawdzonych, klasycznych metodach,
+              ale również na nowoczesnych i innowacyjnych rozwiązaniach.
+              Jesteśmy wstanie sprostać wyzwaniom stawiane nam przez
+              wymagających klientów.<br />
+              <strong>Sprawdź nas!</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-services" id="uslugi">
+        <div class="container">
+          <h2 class="heading-secondary">Usługi</h2>
+          <div class="grid grid--2-cols center">
+            <div class="services-text-box">
+              <ul class="services-list">
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="construct-outline"
+                  ></ion-icon>
+                  <span>Remonty, wykończenia wnętrz</span>
+                </li>
+
+                <li class="services-list-item">
+                  <svg
+                    class="services-icon-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M230.64,25.36a32,32,0,0,0-45.26,0c-.1.1-.2.2-.29.31L130.18,86.85,121,77.64a24,24,0,0,0-33.95,0l-76.69,76.7a8,8,0,0,0,0,11.31l80,80a8,8,0,0,0,11.31,0L178.36,169a24,24,0,0,0,0-33.95l-9.21-9.2,61.18-54.91a2.91,2.91,0,0,0,.31-.3A32,32,0,0,0,230.64,25.36ZM96,228.69,79.32,212l22.34-22.35a8,8,0,0,0-11.31-11.31L68,200.68,55.32,188l22.34-22.35a8,8,0,0,0-11.31-11.31L44,176.68,27.31,160,72,115.31,140.69,184ZM219.46,59.16l-61,54.75a16,16,0,0,0-.62,23.22l9.2,9.21a8,8,0,0,1,0,11.31l-15,15L83.32,104l15-15a8,8,0,0,1,11.31,0l9.21,9.2a16,16,0,0,0,23.22-.62h0l54.75-61a16,16,0,0,1,22.62,22.62Z"
+                    ></path>
+                  </svg>
+                  <span>Malowanie, szpachlowanie, tapetowanie</span>
+                </li>
+
+                <li class="services-list-item">
+                  <svg
+                    class="services-icon-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M232,96H208a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8H64V52A12,12,0,0,1,76,40a12.44,12.44,0,0,1,12.16,9.59,8,8,0,0,0,15.68-3.18A28.32,28.32,0,0,0,76,24,28,28,0,0,0,48,52V96H24A16,16,0,0,0,8,112v32a56.06,56.06,0,0,0,56,56v16a8,8,0,0,0,16,0V200h96v16a8,8,0,0,0,16,0V200a56.06,56.06,0,0,0,56-56V112A16,16,0,0,0,232,96Zm-40,8v32H144V104Zm40,40a40,40,0,0,1-40,40H64a40,40,0,0,1-40-40V112H128v32a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V112h24Z"
+                    ></path>
+                  </svg>
+                  <span>Wykończenie łazienek</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="home-outline"
+                  ></ion-icon>
+                  <span>Budowanie domów od podstaw</span>
+                </li>
+
+                <li class="services-list-item">
+                  <svg
+                    class="services-icon-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40ZM56,56h64V200H56ZM200,200H136V56h64V200Z"
+                    ></path>
+                  </svg>
+                  <span>Montaż okien i drzwi</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="flower-outline"
+                  ></ion-icon>
+                  <span>Ogrodnictwo</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="image-outline"
+                  ></ion-icon>
+                  <span>Zagospodarowanie terenu</span>
+                </li>
+
+                <li class="services-list-item">
+                  <svg
+                    class="services-icon-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-x"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"
+                    />
+                    <path
+                      d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-.646-4.854.646.647.646-.646a.5.5 0 0 1 .708.707l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.707l.647-.647-.647-.646a.5.5 0 0 1 .708-.707Z"
+                    />
+                  </svg>
+                  <span>Rozbiórka i burzenie obiektów budowlanych</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="bulb-outline"
+                  ></ion-icon>
+                  <span>Wykonywanie instalacji elektrycznych</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="water-outline"
+                  ></ion-icon>
+                  <span>Wykonywanie instalacji wodno-kanalizacyjnych</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="sunny-outline"
+                  ></ion-icon>
+                  <span>Wykonywanie instalacji cieplnych</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="flame-outline"
+                  ></ion-icon>
+                  <span>Wykonywanie instalacji gazowych</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon
+                    class="services-icon"
+                    name="snow-outline"
+                  ></ion-icon>
+                  <span>Wykonywanie instalacji klimatyzacyjnych</span>
+                </li>
+
+                <li class="services-list-item">
+                  <ion-icon class="services-icon" name="add-outline"></ion-icon>
+                  <span>Inne</span>
+                </li>
+              </ul>
+            </div>
+            <div class="services-img-box animation-img hidden">
+              <img
+                class="services-img img"
+                alt="Zdjęcie płotu malowanego pędzlem"
+                src="img/uslugi.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-how" id="jak">
+        <div class="container">
+          <h2 class="heading-secondary center-text">Jak działamy</h2>
+          <div class="how-4-boxs grid grid--4-cols">
+            <div class="how-box">
+              <ion-icon
+                class="how-icon"
+                name="chatbox-ellipses-outline"
+              ></ion-icon>
+              <p class="how-title">Poznajmy się</p>
+              <p class="how-text">
+                Podczas spotkania ustalimy czego oczekujesz oraz wstępnie
+                oszacujemy naszą pracę.
+              </p>
+            </div>
+            <div class="how-box">
+              <ion-icon class="how-icon" name="cash-outline"></ion-icon>
+              <p class="how-title">Wycena projektu</p>
+              <p class="how-text">
+                Przesyłamy wycenę.<br />
+                Po zaakceptowaniu zaczynamy nasze działanie z projektem.
+              </p>
+            </div>
+            <div class="how-box">
+              <ion-icon class="how-icon" name="time-outline"></ion-icon>
+              <p class="how-title">Realizacja</p>
+              <p class="how-text">
+                Po ustaleniu kosztorysu prac wykonujemy usługi zgodnie z
+                umówionym zakresem oraz ceną.
+              </p>
+            </div>
+            <div class="how-box">
+              <ion-icon class="how-icon" name="thumbs-up-outline"></ion-icon>
+              <p class="how-title">Odbiór</p>
+              <p class="how-text">
+                Po pozytywnym przez Ciebię odbiorze wykonanych prac finalizujemy
+                projekt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-realizations" id="realizacje">
+        <div class="relizations">
+          <h2 class="heading-secondary center-text">Realizacje</h2>
+          <div class="realizations-gallery gallery-homepage">
+            <div>
+              <p class="realizations-title center-text">Łazienki</p>
+              <figure class="gallery-item hidden">
+                <a href="lazienki.html">
+                  <img
+                    class="realizacje-img1"
+                    src="img/realizacje/lazienki/1.jpg"
+                    border="0"
+                    alt="photo of realization"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div>
+              <p class="realizations-title center-text">Kuchnie</p>
+              <figure class="gallery-item hidden">
+                <a href="kuchnie.html">
+                  <img
+                    class="realizacje-img2"
+                    src="img/realizacje/kuchnie/1.jpg"
+                    border="0"
+                    alt="photo of realization"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div>
+              <p class="realizations-title center-text">Domy</p>
+              <figure class="gallery-item hidden">
+                <a href="domy.html">
+                  <img
+                    class="realizacje-img3"
+                    src="img/realizacje/domy/1.jpg"
+                    border="0"
+                    alt="photo of realization"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div>
+              <p class="realizations-title center-text">Ogrody</p>
+
+              <figure class="gallery-item hidden">
+                <a href="ogrody.html">
+                  <img
+                    class="realizacje-img4"
+                    src="img/realizacje/ogrody/1.jpg"
+                    border="0"
+                    alt="photo of realization"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div>
+              <p class="realizations-title center-text">Inne</p>
+              <figure class="gallery-item hidden">
+                <a href="inne.html">
+                  <img
+                    class="realizacje-img5"
+                    src="img/realizacje/inne/1.jpg"
+                    border="0"
+                    alt="photo of realization"
+                  />
+                </a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="kontakt">
+      <div class="container grid grid--4-cols-footer">
+        <div class="logo-footer">
+          <div class="flex-logo-footer">
+            <a class="logo-link-footer" href="#glowna">
+              <img
+                class="logo-footer-img"
+                alt="OB Etalon logo"
+                src="img/etalon-logo.png"
+              />
+              <span class="logo-text-footer">ETALON</span>
+            </a>
+          </div>
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.facebook.com/etalon.ob.7"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Seweryn
+            Zagajny.<br />
+            All rights reserved.
+            <a class="privacy-policy" href="privacy.html"
+              >Polityka prywatności</a
+            >
+          </p>
+        </div>
+        <div class="footer-list contact">
+          <p class="footer-heading">Kontakt</p>
+
+          <a class="footer-link contact-flex" href="tel:666815522"
+            ><ion-icon class="contact-icon" name="call-outline"></ion-icon>
+            <span>666 815 522</span></a
+          >
+
+          <a class="footer-link contact-flex" href="mailto:ob@etalon-ob.pl"
+            ><ion-icon class="contact-icon" name="mail-outline"></ion-icon
+            ><span>ob@etalon-ob.pl</span></a
+          >
+        </div>
+        <div class="footer-list company-information">
+          <p class="footer-heading">Dane firmy</p>
+
+          <p class="footer-text">NIP: 9552542910</p>
+
+          <p class="footer-text">REGON: 386525150</p>
+        </div>
+
+        <div class="footer-list adress">
+          <p class="footer-heading">Adres siedziby</p>
+          <p class="footer-text">al. Powstańców Wielkopolskich 22/U2</p>
+          <p class="footer-text">70-110 Szczecin</p>
+        </div>
+      </div>
+    </footer>
+    <div class="cookie-banner hidden-banner">
+      <p class="cookie-text">
+        Ta strona używa plików cookie, aby zapewnić najlepsze doświadczenie
+        użytkownika.
+        <a class="privacy-policy" href="privacy.html">Polityka prywatności</a>
+      </p>
+      <div class="banner-actions">
+        <div class="accept-cookies btn btn--full">Akceptuję</div>
+        <div class="close-banner">
+          <svg
+            class="close-banner-icon-svg"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
